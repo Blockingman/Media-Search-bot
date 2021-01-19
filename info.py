@@ -32,24 +32,25 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 START_MSG = """
 **Hi  {first_name}  
 
- I'm Media Search bot. Test 1
+ I'm NFLK Movies Search Bot. 
 
-හායි 😍 මම ඉන්ලයින් ක්‍රමයට මීඩියා සර්ච් කරන බොට් කෙනෙක්. ❤ **
+ 🔎 මම Inline ක්‍රමයට Movies Search කරන Bot කෙනෙක්. 🌀**
 
-Here you can search files in inline mode. Just press following buttons and start searching.
+Here you can search Movies in inline mode. Just press following button and start searching👇
 
-ඔයාලට ඔනේ දෙවල් ලබාගන්න පහත ඉන්ලයින් බටන් එක යුස් කරන්න ❤
+ඔයාට අවශ්‍ය Movie එක හොයා ගන්න පහල Inline Button එක භාවිතා කරන්න 👍
 
-එක ටච් කරාම මැසෙජ් ටයිප් කරන තැන එන සර්ච් ඔප්ශන් එක යුස් කරලා ඔයාට ඔනේ දෙ හොයා ගන්න 💪💪.
+Inline Button එක Touch කරාම Message Type කරන තැන එන Search Option එක භාවිතා කරලා ඔයාට අවශ්‍ය Movie එක හොයා ගන්න.
+මතක ඇතුව Movie එකේ නම හරියට Type කරන්න.😂
 """
 
 SHARE_BUTTON_TEXT = """
 Checkout {username} for searching files.
 
-Hey 🙋‍♂ If you want get Inline Search Sinhala mod for your owne Bot 🤖
+This Bot Created By Niro Dexter | Delta Theta (Master)
 
-Plz contact me :- @Delta_theta
+Plz contact me :- @Zitron_Kenway 
 
-Project of SSB
+Project of NFLK
 """
 INVITE_MSG = environ.get('INVITE_MSG', 'Please join @.... to use this bot')
