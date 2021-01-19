@@ -19,9 +19,9 @@ async def answer(bot, query):
         await query.answer(results=[],
                            cache_time=0,
                            switch_pm_text= """
- ඔයා අපේ චනල් එක සබ් කරලා නැ
+ ඔයා අපේ Channel එක Subscribe කරලා නෑ
 
- සබ් කරන්න මෙක උඩ ක්ලික් කරන්න
+ Subscribe කරන්න මේක උඩ Click කරන්න.
 """,
                            switch_pm_parameter="subscribe")
         return
