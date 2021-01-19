@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 async def start(bot, message):
     """Start command handler"""
     buttons = [[
-        InlineKeyboardButton('Click To Search 👆', switch_inline_query_current_chat=''),
+        InlineKeyboardButton('Click To Search 🔎', switch_inline_query_current_chat=''),
      
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
