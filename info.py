@@ -30,9 +30,9 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
 START_MSG = """
-**Hi  {first_name}  {last_name}
+**Hi  {first_name}  
 
- I'm Media Search bot.😌
+ I'm Media Search bot. Test 1
 
 හායි 😍 මම ඉන්ලයින් ක්‍රමයට මීඩියා සර්ච් කරන බොට් කෙනෙක්. ❤ **
 
