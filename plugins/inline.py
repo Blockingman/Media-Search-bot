@@ -19,9 +19,9 @@ async def answer(bot, query):
         await query.answer(results=[],
                            cache_time=0,
                            switch_pm_text= """
- ඔයා අපේ චනල් එක සබ් කරලා නැ
+ ඔයා අපේ Channel එක Sub කරලා නෑ.
 
- සබ් කරන්න මෙක උඩ ක්ලික් කරන්න
+ Sub කරන්න මේක උඩ Click කරන්න.
 """,
                            switch_pm_parameter="subscribe")
         return
@@ -52,7 +52,7 @@ async def answer(bot, query):
                 reply_markup=reply_markup))
 
     if results:
-        switch_pm_text = f"{emoji.FILE_FOLDER} අවසානයට අප්ඩෙට් කරපු ෆයිල්ස් 👇 "
+        switch_pm_text = f"{emoji.FILE_FOLDER} අවසානයට අප්ඩෙට් කරපු Movies 👇 "
         if string:
             switch_pm_text += f" for {string}"
 
@@ -63,7 +63,7 @@ async def answer(bot, query):
                            next_offset=str(next_offset))
     else:
 
-        switch_pm_text = f'{emoji.CROSS_MARK} ඔයා හොයන එක අපි ගාව නැ හෝ ඔබ යෙදු අකුරු නිවැරදිද බලන්න'
+        switch_pm_text = f'{emoji.CROSS_MARK} ඔයා හොයන Movie එක අපි ගාව නැත. හෝ ඔබ යෙදු අකුරු නිවැරදිද බලන්න'
         if string:
             switch_pm_text += f' for "{string}"'
 
