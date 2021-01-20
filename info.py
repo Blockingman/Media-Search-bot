@@ -34,20 +34,23 @@ START_MSG = """
 
  I'm NFLK Movies Search Bot. 
 
- 🔎 මම Inline ක්‍රමයට Movies Search කරන Bot කෙනෙක්. 🌀**
+ 🔎 මම Inline Method එකට Movies Search කරන Bot කෙනෙක්. ✅**
 
-Here you can search Movies in inline mode. Just press following button and start searching👇
+▶️ Here you can search Movies in inline mode.Just press following button and start searching ◀️
 
-ඔයාට අවශ්‍ය Movie එක හොයා ගන්න පහල Inline Button එක භාවිතා කරන්න 👍
+😉 ඔයාට අවශ්‍ය Movie එක හොයා ගන්න පහල Inline Button එක භාවිතා කරන්න 👇
 
-Inline Button එක Touch කරාම Message Type කරන තැන එන Search Option එක භාවිතා කරලා ඔයාට අවශ්‍ය Movie එක හොයා ගන්න.
-මතක ඇතුව Movie එකේ නම හරියට Type කරන්න.😂
+Inline Button එක Touch කරාම එන Message Type කරන තැන Search Option එක භාවිතා කරලා ඔයාට අවශ්‍ය Movie එක හොයා ගන්න.
+
+**මතක ඇතුව Movie එකේ නම හරියට Type කරන්න.😂**
+
+                  **Made By Niro Dexter**
 """
 
 SHARE_BUTTON_TEXT = """
 Checkout {username} for searching files.
 
-This Bot Created By Niro Dexter | Delta Theta (Master)
+This Bot Created By Niro Dexter | Delta Theta | Mahesh (Owner)
 
 Plz contact me :- @Zitron_Kenway 
 
