@@ -16,7 +16,7 @@ async def answer(bot, query):
     if AUTH_CHANNEL and not await is_subscribed(bot, query):
         await query.answer(results=[],
                            cache_time=0,
-                           switch_pm_text='අපගේ Channel එක Sub කරලා ඉන්න 👆 ',
+                           switch_pm_text='අපේ ⚡Updates⚡ Channel එක Sub කරලා ඉන්න 👆 ',
                            switch_pm_parameter="Subscribe")
         return
 
@@ -91,7 +91,7 @@ def get_reply_markup(query):
     buttons = [
         [
             InlineKeyboardButton('නැවත සොයන්න', switch_inline_query_current_chat=query),
-            InlineKeyboardButton('⚡Updates⚡', url='https://t.me/NFLK_Updates')
+            InlineKeyboardButton('⚡Updates⚡', url='https://t.me/NFLK_Updatesx')
         ]
         ]
     return InlineKeyboardMarkup(buttons)
