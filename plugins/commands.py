@@ -100,7 +100,7 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search කරන්න 🔎", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("⚡Updates⚡", url="https://t.me/NFLK_Updates")
+                        InlineKeyboardButton("⚡Updates⚡", url="https://t.me/NFLK_Updatesx")
                     ],
                     [
                         InlineKeyboardButton("🌀About🌀", callback_data="about")
@@ -192,7 +192,7 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Updates Channel', url='https://t.me/NFLK_Updates'),
+            InlineKeyboardButton('Updates Channel', url='https://t.me/NFLK_Updatesx'),
             InlineKeyboardButton('Main Bot', url='https://t.me/NetflixLK_bot')
         ]
         ]
