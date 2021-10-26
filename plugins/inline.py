@@ -16,8 +16,8 @@ async def answer(bot, query):
     if AUTH_CHANNEL and not await is_subscribed(bot, query):
         await query.answer(results=[],
                            cache_time=0,
-                           switch_pm_text='මෙම Botව භාවිතා කිරීමට පෙර අපගේ Channel එක Subscribe කරන්න 👇',
-                           switch_pm_parameter="Subscribe කරන්න 👆")
+                           switch_pm_text='අපගේ Channel එක Sub කරලා ඉන්න 👆 ',
+                           switch_pm_parameter="Subscribe")
         return
 
     results = []
