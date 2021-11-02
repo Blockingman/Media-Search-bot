@@ -66,7 +66,7 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
+                        InlineKeyboardButton('නැවත සොයන්න 🔎', switch_inline_query_current_chat=''),
                         InlineKeyboardButton('Bots LK 🇱🇰', url='https://t.me/bots_lk')
                     ]
                     ]
@@ -82,7 +82,7 @@ async def start(bot, cmd):
         invite_link = await bot.create_chat_invite_link(int(AUTH_CHANNEL))
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="**මෙම Bot එක භාවිතා කිරීම සඳහා අපගේ Developer Channel එකට Join වී පැමිණ පහත Try Again Button එක ඔබන්න👇**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -100,7 +100,7 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search කරන්න 🔎", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Bots LK 🇱🇰", url="https://t.me/subin_works/122")
+                        InlineKeyboardButton("Bots LK 🇱🇰", url="https://t.me/bots_lk")
                     ],
                     [
                         InlineKeyboardButton("🔰 About 🔰", callback_data="about")
