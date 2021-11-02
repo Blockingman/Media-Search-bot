@@ -27,11 +27,11 @@ async def start(bot, cmd):
                 ident, file_id = cmd.text.split("_-_-_-_")
                 await bot.send_message(
                     chat_id=cmd.from_user.id,
-                    text="**මෙම Bot එක භාවිතා කිරීම සඳහා අපගේ Developer Channel එකට Join වී පැමිණ නැවත Search කරන්න 🔎**",
+                    text="**මෙම Bot එක භාවිතා කිරීම සඳහා අපගේ Updates Channel එකට Join වී පැමිණ නැවත Search කරන්න 🔎**",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🔥 Join Developer Channel 🔥", url=invite_link.invite_link)
+                                InlineKeyboardButton("🔥 Join Updates Channel 🔥", url=invite_link.invite_link)
                             ],
                             [
                                 InlineKeyboardButton(" 🔄 Try Again", callback_data=f"checksub#{file_id}")
@@ -82,11 +82,11 @@ async def start(bot, cmd):
         invite_link = await bot.create_chat_invite_link(int(AUTH_CHANNEL))
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="**මෙම Bot එක භාවිතා කිරීම සඳහා අපගේ Developer Channel එකට Join වී පැමිණ නැවත Search කරන්න 🔎**",
+            text="**මෙම Bot එක භාවිතා කිරීම සඳහා අපගේ Updates Channel එකට Join වී පැමිණ නැවත Search කරන්න 🔎**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔥 Join Developer Channel 🔥", url=invite_link.invite_link)
+                        InlineKeyboardButton("🔥 Join Updates Channel 🔥", url=invite_link.invite_link)
                     ]
                 ]
             )
@@ -192,8 +192,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Developer Channel', url='https://t.me/NFLK_Updatesx'),
+            InlineKeyboardButton('Updates Channel', url='https://t.me/NFLK_Updatesx'),
             InlineKeyboardButton('Bots LK 🇱🇰', url='https://t.me/bots_lk')
         ]
         ]
-    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nDeveloper : <a href='https://t.me/NFLK_Updatesx'>NFLK</a>\nBots LK 🇱🇰 : <a href='https://t.me/bots_lk'>Bots LK 🇱🇰</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nDEV : <a href='https://t.me/NFLK_Updatesx'>NFLK</a>\nBots LK 🇱🇰 : <a href='https://t.me/bots_lk'>Bots LK 🇱🇰</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
