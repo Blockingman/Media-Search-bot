@@ -26,7 +26,7 @@ async def filter(client, message):
         except UserNotParticipant:
             await client.send_message(
                 chat_id=message.from_user.id,
-                text="**මෙම Bot එක භාවිතා කිරීම සඳහා අපගේ Developer Channel එකට Join වී සිටින්න 👇**",
+                text="**මෙම Bot එක භාවිතා කිරීම සඳහා අපගේ Developer Channel එකට Join වී පැමිණ පහතින් ඇති Try Again Button එක ඔබන්න👇**",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
@@ -83,10 +83,10 @@ async def filter(client, message):
             if API_KEY:
                 poster=await get_poster(search)
             if poster:
-                await message.reply_photo(photo=poster, caption=f"<b>මෙන්න ඔයා හොයන 👇 {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_photo(photo=poster, caption=f"<b>🔰මෙන්න ඔයා හොයන 👇 {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
 
             else:
-                await message.reply_text(f"<b>මෙන්න ඔයා හොයන 👇 {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_text(f"<b>🔰මෙන්න ඔයා හොයන 👇 {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
             return
 
         data = BUTTONS[keyword]
@@ -104,9 +104,9 @@ async def filter(client, message):
         if API_KEY:
             poster=await get_poster(search)
         if poster:
-            await message.reply_photo(photo=poster, caption=f"<b>මෙන්න ඔයා හොයන 👇 {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_photo(photo=poster, caption=f"<b>🔰මෙන්න ඔයා හොයන 👇 {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
         else:
-            await message.reply_text(f"<b>මෙන්න ඔයා හොයන 👇 {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_text(f"<b>🔰මෙන්න ඔයා හොයන 👇 {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
 
 @Client.on_message(filters.text & filters.group & filters.incoming & filters.chat(AUTH_GROUPS) if AUTH_GROUPS else filters.text & filters.group & filters.incoming)
 async def group(client, message):
@@ -151,9 +151,9 @@ async def group(client, message):
             if API_KEY:
                 poster=await get_poster(search)
             if poster:
-                await message.reply_photo(photo=poster, caption=f"<b>මෙන්න ඔයා හොයන 👇 {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_photo(photo=poster, caption=f"<b>🔰මෙන්න ඔයා හොයන 👇 {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
             else:
-                await message.reply_text(f"<b>මෙන්න ඔයා හොයන 👇 {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_text(f"<b>🔰මෙන්න ඔයා හොයන 👇 {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
             return
 
         data = BUTTONS[keyword]
@@ -171,9 +171,9 @@ async def group(client, message):
         if API_KEY:
             poster=await get_poster(search)
         if poster:
-            await message.reply_photo(photo=poster, caption=f"<b>මෙන්න ඔයා හොයන 👇 {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_photo(photo=poster, caption=f"<b>🔰මෙන්න ඔයා හොයන 👇 {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
         else:
-            await message.reply_text(f"<b>මෙන්න ඔයා හොයන 👇 {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_text(f"<b>🔰මෙන්න ඔයා හොයන 👇 {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
 
     
 def get_size(size):
