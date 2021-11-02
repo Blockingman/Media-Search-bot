@@ -26,11 +26,11 @@ async def filter(client, message):
         except UserNotParticipant:
             await client.send_message(
                 chat_id=message.from_user.id,
-                text="**මෙම Bot එක භාවිතා කිරීම සඳහා අපගේ Developer Channel එකට Join වී පැමිණ නැවත Search කරන්න 🔎**",
+                text="**මෙම Bot එක භාවිතා කිරීම සඳහා අපගේ Updates Channel එකට Join වී පැමිණ නැවත Search කරන්න 🔎**",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🔥 Developer Channel 🔥", url=invite_link.invite_link)
+                            InlineKeyboardButton("🔥 Updates Channel 🔥", url=invite_link.invite_link)
                         ]
                     ]
                 ),
