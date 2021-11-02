@@ -100,7 +100,7 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search කරන්න 🔎", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("⚡Updates Channel⚡", url="https://t.me/NFLK_Updates")
+                        InlineKeyboardButton("⚡Updates Channel⚡", url="https://t.me/NFLK_Updatesx")
                     ],
                     [
                         InlineKeyboardButton("🔰 About 🔰", callback_data="about")
