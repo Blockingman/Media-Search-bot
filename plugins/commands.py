@@ -27,7 +27,7 @@ async def start(bot, cmd):
                 ident, file_id = cmd.text.split("_-_-_-_")
                 await bot.send_message(
                     chat_id=cmd.from_user.id,
-                    text="**මෙම Bot එක භාවිතා කිරීම සඳහා අපගේ Developer Channel එකට Join වී පැමිණ පහත Try Again Button එක ඔබන්න👇**",
+                    text="**මෙම Bot එක භාවිතා කිරීම සඳහා අපගේ Developer Channel එකට Join වී පැමිණ නැවත Search කරන්න 🔎**",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
@@ -82,7 +82,7 @@ async def start(bot, cmd):
         invite_link = await bot.create_chat_invite_link(int(AUTH_CHANNEL))
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="**මෙම Bot එක භාවිතා කිරීම සඳහා අපගේ Developer Channel එකට Join වී පැමිණ පහත Try Again Button එක ඔබන්න👇**",
+            text="**මෙම Bot එක භාවිතා කිරීම සඳහා අපගේ Developer Channel එකට Join වී පැමිණ නැවත Search කරන්න 🔎**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
