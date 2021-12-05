@@ -192,7 +192,7 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Updates Channel', url='https://t.me/NFLK_Updatesx'),
+            InlineKeyboardButton('Updates Channel', url='https://t.me/NFLK_Updates'),
             InlineKeyboardButton('Main Bot', url='https://t.me/NetflixLK_bot')
         ]
         ]
