@@ -67,7 +67,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('නැවත සොයන්න', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('⚡Updates⚡', url='https://t.me/NFLK_Updates')
+                        InlineKeyboardButton('⚡Updates⚡', url='https://t.me/Bots_LK')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -192,8 +192,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Updates Channel', url='https://t.me/NFLK_Updates'),
-            InlineKeyboardButton('Main Bot', url='https://t.me/NetflixLK_bot')
+            InlineKeyboardButton('Updates Channel', url='https://t.me/Bots_LK'),
+            InlineKeyboardButton('Main', url='https://t.me/Bots_LK')
         ]
         ]
     await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nMain Bot : <a href='https://NetflixLK_bot'>Click here</a>\nUpdates Channel : <a href='https://t.me/NFLK_Updates'>NFLK</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
