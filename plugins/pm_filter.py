@@ -272,11 +272,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Updates Channel', url='https://t.me/NFLK_Updates'),
-                    InlineKeyboardButton('Main Bot', url='https://t.me/NetflixLK_bot')
+                    InlineKeyboardButton('Updates Channel', url='https://t.me/bots_LK'),
+                    InlineKeyboardButton('Main', url='https://t.me/bots_lk')
                 ]
                 ]
-            await query.message.edit(text="<b>Dev : <a href='https://t.me/NFLK_Updates'>NFLK</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nMain Bot : <a href='https://t.me/NetflixLK_bot'>NFLK Bot</a>\nUpdates Channel : <a href='https://t.me/NFLK_Updates'>NFLK Channel</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b>Dev : <a href='https://t.me/Bots_LK'>Botslk</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nMain : <a href='https://t.me/bots_lk'>Botslk</a>\nChannel : <a href='https://t.me/bots_lk'>Bots LK</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -297,8 +297,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('⚡Updates⚡', url='https://t.me/NFLK_Updates'),
-                        InlineKeyboardButton('NFLK Bot', url='https://t.me/NetflixLK_bot')
+                        InlineKeyboardButton('⚡Updates⚡', url='https://t.me/bots_lk'),
+                        InlineKeyboardButton('Main', url='https://t.me/bots_lk')
                     ]
                     ]
                 
@@ -329,8 +329,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('⚡Updates⚡', url='https://t.me/NFLK_Updates'),
-                        InlineKeyboardButton('NFLK Bot', url='https://t.me/NetflixLK_bot')
+                        InlineKeyboardButton('⚡Updates⚡', url='https://t.me/bots_lk'),
+                        InlineKeyboardButton('Main', url='https://t.me/bots_lk')
                     ]
                     ]
                 
