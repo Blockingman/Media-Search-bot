@@ -26,11 +26,11 @@ async def filter(client, message):
         except UserNotParticipant:
             await client.send_message(
                 chat_id=message.from_user.id,
-                text="**කරුණාකරලා අපේ Updates Channel එකට Join වෙලා ඉන්න!**",
+                text="**කරුණාකරලා අපේ Main Channel එකට Join වෙලා ඉන්න!**",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🔥 Updates Channel 🔥", url=invite_link.invite_link)
+                            InlineKeyboardButton("👉 Main Channel 👈", url=invite_link.invite_link)
                         ]
                     ]
                 ),
@@ -273,7 +273,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             buttons = [
                 [
                     InlineKeyboardButton('Updates Channel', url='https://t.me/bots_LK'),
-                    InlineKeyboardButton('Main', url='https://t.me/bots_lk')
+                    InlineKeyboardButton('Bots LK', url='https://t.me/bots_lk')
                 ]
                 ]
             await query.message.edit(text="<b>Dev : <a href='https://t.me/Bots_LK'>Botslk</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nMain : <a href='https://t.me/bots_lk'>Botslk</a>\nChannel : <a href='https://t.me/bots_lk'>Bots LK</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -298,7 +298,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons = [
                     [
                         InlineKeyboardButton('⚡Updates⚡', url='https://t.me/bots_lk'),
-                        InlineKeyboardButton('Main', url='https://t.me/bots_lk')
+                        InlineKeyboardButton('Bots LK', url='https://t.me/bots_lk')
                     ]
                     ]
                 
@@ -330,7 +330,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons = [
                     [
                         InlineKeyboardButton('⚡Updates⚡', url='https://t.me/bots_lk'),
-                        InlineKeyboardButton('Main', url='https://t.me/bots_lk')
+                        InlineKeyboardButton('Bots LK', url='https://t.me/bots_lk')
                     ]
                     ]
                 
