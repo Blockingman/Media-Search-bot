@@ -27,11 +27,11 @@ async def start(bot, cmd):
                 ident, file_id = cmd.text.split("_-_-_-_")
                 await bot.send_message(
                     chat_id=cmd.from_user.id,
-                    text="**මෙම Botව භාවිතා කිරීමට ඔබට අවශ්‍ය නම් අපගේ Updates Channel එකට Join වී සිටින්න!**",
+                    text="**මෙම Botව භාවිතා කිරීමට ඔබට අවශ්‍ය නම් අපගේ Main Channel එකට Join වී සිටින්න!**",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Updates Channel එකට Join වෙන්න 👆", url=invite_link.invite_link)
+                                InlineKeyboardButton("Main Channel එකට Join වෙන්න", url=invite_link.invite_link)
                             ],
                             [
                                 InlineKeyboardButton(" 🔄 නැවත උත්සාහ කරන්න", callback_data=f"checksub#{file_id}")
@@ -82,11 +82,11 @@ async def start(bot, cmd):
         invite_link = await bot.create_chat_invite_link(int(AUTH_CHANNEL))
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="**මෙම Botව භාවිතා කිරීමට ඔබට අවශ්‍ය නම් අපගේ Updates Channel එකට Join වී සිටින්න!**",
+            text="**මෙම Botව භාවිතා කිරීමට ඔබට අවශ්‍ය නම් අපගේ Main Channel එකට Join වී සිටින්න!**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel එකට Join වෙන්න 👆", url=invite_link.invite_link)
+                        InlineKeyboardButton("Main Channel එකට Join වෙන්න", url=invite_link.invite_link)
                     ]
                 ]
             )
